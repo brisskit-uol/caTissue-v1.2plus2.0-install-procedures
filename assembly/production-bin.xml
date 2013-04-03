@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<assembly>
+  <id></id>
+  <formats>
+    <format>zip</format>
+  </formats>
+  <includeBaseDirectory>true</includeBaseDirectory>
+  <fileSets>
+  	<fileSet>
+ 		<directory>${basedir}/procedures</directory> 
+ 		<outputDirectory></outputDirectory>
+    </fileSet> 
+  </fileSets>
+</assembly>

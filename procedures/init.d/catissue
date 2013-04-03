@@ -1,0 +1,22 @@
+#!/bin/sh
+
+#
+
+# Some things that run always
+#touch /var/lock/blah
+
+# Carry out specific functions when asked to by the system
+case "$1" in
+  start)
+    echo "Starting catissue start script"
+    /var/local/brisskit/catissue/jboss/jboss-4.2.3.GA/bin/run.sh -b 0.0.0.0
+    echo "catissue might be started by now..."
+    ;;
+  *)
+    echo "Usage: /etc/init.d/catissue {start}"
+    exit 1
+    ;;
+esac
+
+exit 0
+

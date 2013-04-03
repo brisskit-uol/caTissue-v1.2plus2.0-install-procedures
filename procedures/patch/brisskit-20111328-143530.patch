@@ -1,0 +1,21 @@
+*** web.old	2011-03-28 14:28:28.000000000 +0100
+--- web.new	2011-03-28 14:30:34.000000000 +0100
+***************
+*** 89,96 ****
+           role JBossAdmin to access the HTML JMX console web application
+         </description>
+         <url-pattern>/*</url-pattern>
+!        <http-method>GET</http-method>
+!        <http-method>POST</http-method>
+       </web-resource-collection>
+       <auth-constraint>
+         <role-name>JBossAdmin</role-name>
+--- 89,97 ----
+           role JBossAdmin to access the HTML JMX console web application
+         </description>
+         <url-pattern>/*</url-pattern>
+!        <http-method>GET</http-method>
+!        <http-method>POST</http-method>
+       </web-resource-collection>
+       <auth-constraint>
+         <role-name>JBossAdmin</role-name>

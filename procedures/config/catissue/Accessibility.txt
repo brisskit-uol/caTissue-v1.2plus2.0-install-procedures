@@ -1,0 +1,11 @@
+This is the Leicester Cardiovascular Biomedical Research Unit BRICCS deployment of caTissue.
+
+The caTissue system is a web 
+based application that 
+is accessible to any BRU staff member with an internet connection and does not require additional hardware or software 
+installed on client PCs in order to function.
+
+To register, a request must be entered into the system and approved by a system administrator. Once a request has been approved, the user can add or edit data based on their assigned role or privileges.
+
+Any problems with accessing the content of this system, or any unauthorised access should be reported to nrh11@le.ac.uk
+
