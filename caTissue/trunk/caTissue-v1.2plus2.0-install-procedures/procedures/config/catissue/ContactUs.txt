@@ -1,0 +1,11 @@
+This is the Leicester Biomedical Research Unit BRICCS deployment of caTissue.
+
+Please send questions or comments to the E-mail 
+addresses listed below:
+
+For support from the LCBRU BRICCS team: <b>E-mail: </b><a href='mailto:nrh11@le.ac.uk'>nrh11@le.ac.uk</a>
+
+For support from the caTissue development team (this is not your first port of call):
+<b>E-mail: </b><a href='mailto:catissue_support@mga.wustl.edu'>catissue_support@mga.wustl.edu</a>
+
+For help regarding the caTISSUE Suite system, please refer to the <a href='RedirectToHelp.do'>Help</a>&nbsp;section.
