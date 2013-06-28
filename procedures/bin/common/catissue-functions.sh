@@ -282,10 +282,12 @@ catissuebuild()
 #deploy webservice war file
 catissuewebservice()
 {
-	cd "${brisskitvar}/jboss/${JBOSS_DIRECTORY_NAME}/server/default/deploy"
+#	cd "${brisskitvar}/jboss/${JBOSS_DIRECTORY_NAME}/server/default/deploy"
 	wget --user=$MVN_READONLY_USER \
          --password=$MVN_READONLY_PASSWORD \
+         -O /tmp/catissueWS.war \
          $CATISSUE_INTEGRATION_WS_DOWNLOAD_PATH 
+    mv /tmp/catissueWS.war "${brisskitvar}/jboss/${JBOSS_DIRECTORY_NAME}/server/default/deploy"
     echo "catissue webservice deployed"
 }
 
