@@ -135,11 +135,12 @@ jbossinstallcore()
     infolog "jb25 Installing Java JDK"
     local jdkinstallpath=${brisskitvar}/java
     local jdkpackagename=$( basename $JDK_DOWNLOAD_PATH )
-    mkdir -p ${jdkinstallpath}
+    mkdir -p ${jdkinstallpath}i
     cp ${brisskitbin}/java/${jdkpackagename} ${jdkinstallpath}
     cd ${jdkinstallpath}
     chmod a+x ${jdkpackagename}
-	tar -xvf ${jdkpackagename}
+	#tar -xvf ${jdkpackagename}
+	sh ${jdkpackagename}
 	rm ${jdkpackagename}
 	
 # Uncomment the following line to have Mozilla browsers (i.e. Firefox) load the Java 6 plugin

@@ -33,7 +33,8 @@ export MVN_READONLY_USER=readonly
 export MVN_READONLY_PASSWORD=readonly.....
 
 # Acquisition paths:
-export JDK_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/thirdparty/oracle/jdk/jdk/7u17-linux/jdk-7u17-linux-x64.tar.gz
+#export JDK_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/thirdparty/oracle/jdk/jdk/7u17-linux/jdk-7u17-linux-x64.tar.gz
+export JDK_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/thirdparty/oracle/jdk/jdk/7u17-linux/jdk-6u39-linux-x64.bin
 export JBOSS_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/thirdparty/jboss/jboss-server/jboss/4.2.3.GA/jboss-4.2.3.GA.zip
 export CATISSUE_INSTALLABLE_ZIP_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/thirdparty/catissue/caTissue_Plus/v2.0w12_Installable_edited/caTissue_Plus-v2.0w12_Installable_edited.zip
 export CATISSUE_INTEGRATION_WS_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/releases/org/brisskit/app/catissue/caTissue-v1.2plus-WS/1.0-RC1/caTissue-v1.2plus-WS-1.0-RC1.war
@@ -42,7 +43,8 @@ export JERSEY_BUNDLE_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repos
 
 export CATISSUE_DIRECTORY_NAME=$( basename ${CATISSUE_INSTALLABLE_ZIP_DOWNLOAD_PATH} .zip )
 export JBOSS_DIRECTORY_NAME=$( basename ${JBOSS_DOWNLOAD_PATH} .zip )
-export JDK_DIRECTORY_NAME=jdk1.7.0_17
+#export JDK_DIRECTORY_NAME=jdk1.7.0_17
+export JDK_DIRECTORY_NAME=jdk1.6.0_39
 export JAVA_HOME=${brisskitvar}/java/${JDK_DIRECTORY_NAME}
 
 # Working directories used by the admin/integration scripts to extract
