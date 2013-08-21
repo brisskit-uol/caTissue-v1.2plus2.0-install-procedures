@@ -34,9 +34,9 @@ export MVN_READONLY_PASSWORD=readonly.....
 
 # Acquisition paths:
 #export JDK_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/thirdparty/oracle/jdk/jdk/7u17-linux/jdk-7u17-linux-x64.tar.gz
-export JDK_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/thirdparty/oracle/jdk/jdk/7u17-linux/jdk-6u39-linux-x64.bin
+export JDK_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/thirdparty/oracle/jdk/jdk/6u39-linux/jdk-6u39-linux-x64.bin
 export JBOSS_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/thirdparty/jboss/jboss-server/jboss/4.2.3.GA/jboss-4.2.3.GA.zip
-export CATISSUE_INSTALLABLE_ZIP_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/thirdparty/catissue/caTissue_Plus/v2.0w12_Installable_edited/caTissue_Plus-v2.0w12_Installable_edited.zip
+export CATISSUE_INSTALLABLE_ZIP_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/thirdparty/catissue/caTissue_Plus/v3.0.2_Installable/caTissue_Plus-v3.0.2_Installable.zip
 export CATISSUE_INTEGRATION_WS_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/releases/org/brisskit/app/catissue/caTissue-v1.2plus-WS/1.0-RC1/caTissue-v1.2plus-WS-1.0-RC1.war
 export CATISSUE_ADMIN_PROCEDURES_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/releases/org/brisskit/app/catissue/catissue-admin-procedures/1.0-RC1/catissue-admin-procedures-1.0-RC1.zip
 export JERSEY_BUNDLE_DOWNLOAD_PATH=http://maven.brisskit.org/nexus/content/repositories/central/com/sun/jersey/jersey-bundle/1.3/jersey-bundle-1.3.jar

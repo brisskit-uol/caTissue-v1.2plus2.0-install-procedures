@@ -135,7 +135,7 @@ jbossinstallcore()
     infolog "jb25 Installing Java JDK"
     local jdkinstallpath=${brisskitvar}/java
     local jdkpackagename=$( basename $JDK_DOWNLOAD_PATH )
-    mkdir -p ${jdkinstallpath}i
+    mkdir -p ${jdkinstallpath}
     cp ${brisskitbin}/java/${jdkpackagename} ${jdkinstallpath}
     cd ${jdkinstallpath}
     chmod a+x ${jdkpackagename}
